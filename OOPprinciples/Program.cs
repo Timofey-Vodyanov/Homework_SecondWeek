@@ -1,5 +1,6 @@
 ﻿namespace OOPprinciples
 {
+    //Задание 1
     class BankAccount
     {
         private int _accountBalance;
@@ -15,7 +16,7 @@
         }
     }
 
-
+    //Задание 2
     class Vehicle
     {
         public string ManufacturerName { get; set; } = "";
@@ -30,7 +31,7 @@
         public bool HasGear { get; set; }
     }
 
-
+    //Задание 3
     public abstract class Animal
     {
         public abstract void MakeSound();
@@ -50,7 +51,7 @@
         }
     }
 
-
+    //Задание 4
     public abstract class Shape
     {
         public abstract double GetArea();
